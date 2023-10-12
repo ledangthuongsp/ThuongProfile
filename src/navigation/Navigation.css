@@ -1,0 +1,22 @@
+/* Navigation.css */
+.navigation {
+    background-color: #00FF00; /* Màu xanh lá */
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #FFFFFF; /* Màu chữ trắng */
+    font-weight: bold;
+  }
+  
