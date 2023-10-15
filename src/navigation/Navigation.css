@@ -1,22 +1,42 @@
 /* Navigation.css */
+@import "../assets/colors/colors.css";
 .navigation {
-    background-color: #00FF00; /* Màu xanh lá */
-    padding: 10px;
+    background-color: var(--color-white); /* Màu xanh lá */
+    padding: 20px;
+    display: flex; /* Sử dụng flexbox thay thay float */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    justify-content: space-between; /* Canh đều hai đầu */
+    width: auto;
   }
-  
+  /* Tạo viền đen bên trên nav */
+.navigation::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 10px; /* Điều chỉnh chiều cao của viền đen */
+  background-color: black; /* Màu đen */
+}
   .navigation ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
   }
   
   .navigation li {
-    margin-right: 20px;
+      margin-left: 20px;
+      margin-right: 50px;
   }
   
   .navigation a {
     text-decoration: none;
-    color: #FFFFFF; /* Màu chữ trắng */
+    color: var(--color-black);; /* Màu chữ trắng */
     font-weight: bold;
   }
-  
+  .navigation img {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+  }
