@@ -1,0 +1,16 @@
+/* Định nghĩa font Montserrat */
+@font-face {
+    font-family: 'Black';
+    src: local("Roboto"),
+    url('./folder_font/Roboto-Black.ttf') format('woff2');
+  }
+  
+  /* Định nghĩa font Times New Roman */
+  @font-face {
+    font-family: 'Thin';
+    src: local("Roboto")
+         url('./folder_font/Roboto-Thin.ttf') format('woff'); /* Đường dẫn đến file font Times New Roman */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
