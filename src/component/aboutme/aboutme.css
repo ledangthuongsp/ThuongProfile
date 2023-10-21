@@ -23,8 +23,18 @@
 .aboutme-container {
   height: 40%; /* 100% chiều cao của màn hình */
   width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   display: flex;
+  padding-top: 50px;
+}
+.text {
+  padding-right: 400px; /* Tạo khoảng cách phía dưới phần văn bản */
+}
+.image img{
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
 }

@@ -1,7 +1,7 @@
 // Navigation.js
 import React from 'react';
 import '../navigation/Navigation.css';
-import MyAvatar from '../assets/pictures/myava.png';
+import MyAvatar from '../assets/pictures/avatar.jpg';
 function Navigation() {
   return (
     <nav className="navigation">

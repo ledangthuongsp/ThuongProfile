@@ -1,7 +1,8 @@
 // AboutMe.js
 import React from 'react';
 import "../aboutme/aboutme.css";
-import 
+import Avatar from "../../assets/pictures/avatar.jpg"
+// Tạo một đối tượng đại diện cho thư mục assets
 function AboutMe() {
   return (
     <div className="aboutme-container">
@@ -11,7 +12,7 @@ function AboutMe() {
         <h2 id="greeting">As A Software Engineer</h2>
       </div>
       <div className='image'>
-          <img src=''></img>
+        <img src={Avatar} alt='Ảnh cá nhân' />
       </div>
   </div>
   );
