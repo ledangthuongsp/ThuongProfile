@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/ThuongProfile/static/css/main.14273086.css",
-    "main.js": "/ThuongProfile/static/js/main.9fbd83ff.js",
+    "main.css": "/ThuongProfile/static/css/main.85e68740.css",
+    "main.js": "/ThuongProfile/static/js/main.8bf17365.js",
     "static/js/787.7439a938.chunk.js": "/ThuongProfile/static/js/787.7439a938.chunk.js",
+    "static/media/avatar.jpg": "/ThuongProfile/static/media/avatar.7c52cc9a94296cc23135.jpg",
+    "static/media/Itim-Regular.ttf": "/ThuongProfile/static/media/Itim-Regular.38b1e6579a4ae98f4318.ttf",
+    "static/media/Roboto-Medium.ttf": "/ThuongProfile/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Thin.ttf": "/ThuongProfile/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Black.ttf": "/ThuongProfile/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
     "index.html": "/ThuongProfile/index.html",
-    "main.14273086.css.map": "/ThuongProfile/static/css/main.14273086.css.map",
-    "main.9fbd83ff.js.map": "/ThuongProfile/static/js/main.9fbd83ff.js.map",
+    "main.85e68740.css.map": "/ThuongProfile/static/css/main.85e68740.css.map",
+    "main.8bf17365.js.map": "/ThuongProfile/static/js/main.8bf17365.js.map",
     "787.7439a938.chunk.js.map": "/ThuongProfile/static/js/787.7439a938.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14273086.css",
-    "static/js/main.9fbd83ff.js"
+    "static/css/main.85e68740.css",
+    "static/js/main.8bf17365.js"
   ]
 }
