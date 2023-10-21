@@ -16,17 +16,16 @@
 }
 
 .project-container li {
-    font-family: "Itim-Regular";
-    font-weight: lighter;
-    font-size: 16px;
     margin-left: 10px;
     margin-right: 20px;
     align-items: center;
 }
 
-.project-container a {
-    text-decoration: none;
-    color: var(--color-black);; /* Màu chữ trắng */
+.project-container button {
+    font-family: "Itim-Regular";
     font-weight: lighter;
-    align-items: center;
+    font-size: 16px;
+    background: transparent; /* Đặt màu nền là trong suốt */
+    border: none; /* Loại bỏ viền */
+    padding: 0; /* Xóa padding mặc định của button */
 } 

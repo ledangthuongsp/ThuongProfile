@@ -19,10 +19,10 @@ function Project() {
     <div>
       <div className="project-container">
         <ul>
-          <li><a href="#" onClick={() => setFilter('All')}>All</a></li>
-          <li><a href="#" onClick={() => setFilter('Mobile')}>Mobile</a></li>
-          <li><a href="#" onClick={() => setFilter('Website')}>Website</a></li>
-          <li><a href="#" onClick={() => setFilter('Game')}>Game</a></li>
+          <li><button onClick={() => setFilter('All')}>All</button></li>
+          <li><button onClick={() => setFilter('Mobile')}>Mobile</button></li>
+          <li><button onClick={() => setFilter('Website')}>Website</button></li>
+          <li><button onClick={() => setFilter('Game')}>Game</button></li>
         </ul>
       </div>
       <div className="personal-project">
