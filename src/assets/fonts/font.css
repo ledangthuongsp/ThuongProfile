@@ -1,16 +1,19 @@
-/* Định nghĩa font Montserrat */
+
 @font-face {
-    font-family: 'Black';
-    src: local("Roboto"),
-    url('./folder_font/Roboto-Black.ttf') format('woff2');
+    font-family: 'Roboto-Black';
+    src: url('./folder_font/Roboto-Black.ttf') format('woff');
   }
   
-  /* Định nghĩa font Times New Roman */
+
   @font-face {
-    font-family: 'Thin';
-    src: local("Roboto")
-         url('./folder_font/Roboto-Thin.ttf') format('woff'); /* Đường dẫn đến file font Times New Roman */
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Roboto-Thin';
+    src: url('./folder_font/Roboto-Thin.ttf') format('woff'); 
   }
-  
+  @font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./folder_font/Roboto-Medium.ttf') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Itim-Regular';
+    src: url('./folder_font/Itim-Regular.ttf') format('woff');
+  }

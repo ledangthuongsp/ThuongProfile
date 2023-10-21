@@ -1,5 +1,6 @@
 /* Navigation.css */
 @import "../assets/colors/colors.css";
+@import "../assets/fonts/font.css";
 .navigation {
     background-color: var(--color-white); /* Màu xanh lá */
     padding: 20px;
@@ -24,6 +25,8 @@
   }
   
   .navigation li {
+      font-family: "Itim-Regular";
+      font-size: 24px;
       margin-left: 20px;
       margin-right: 50px;
   }
@@ -40,3 +43,18 @@
     border-radius: 50%;
 
   }
+  /* Trong tệp Navigation.css */
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container img {
+  width: 50px; /* Điều chỉnh kích thước hình ảnh theo mong muốn */
+  height: auto; /* Để giữ tỷ lệ khung hình khi thay đổi kích thước */
+  margin-right: 10px; /* Khoảng cách giữa hình ảnh và chữ */
+}
+
+.avatar-container p {
+  font-size: 16px; /* Điều chỉnh kích thước chữ theo mong muốn */
+}
