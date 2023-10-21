@@ -1,0 +1,32 @@
+@import '../../assets/colors/colors.css';
+@import '../../assets/fonts//font.css';
+.project-container {
+    height: 40%; /* 100% chiều cao của màn hình */
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+.project-container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.project-container li {
+    font-family: "Itim-Regular";
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.project-container a {
+    text-decoration: none;
+    color: var(--color-black);; /* Màu chữ trắng */
+    font-weight: lighter;
+    align-items: center;
+} 

@@ -10,7 +10,6 @@
     font-weight: 100;
     line-height: normal;
 }
-
 #name {
     color: var(--color-Black);
     font-family: 'Roboto-Medium';
@@ -28,6 +27,8 @@
   align-items: center;
   display: flex;
   padding-top: 50px;
+  padding-bottom: 10px;
+  box-shadow: 3px 4px 4px 0px rgba(163, 159, 159, 0.25);
 }
 .text {
   padding-right: 400px; /* Tạo khoảng cách phía dưới phần văn bản */
@@ -38,3 +39,50 @@
     height: 300px;
     border-radius: 10%;
 }
+.icon {
+  display: flex; /* Sử dụng flex container để sắp xếp các biểu tượng */
+  gap: 10px; /* Khoảng cách giữa các biểu tượng là 30px */
+  align-items: center; /* Canh giữa theo chiều dọc */
+  margin-top: -20px;
+}
+.icon a {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+}
+
+/* Các thuộc tính CSS khác cho biểu tượng (nếu cần) */
+.icon img {
+  width: 30px; /* Điều chỉnh kích thước hình ảnh nếu cần */
+  height: 30px;
+  border-radius: 20%;
+}
+#getResume{
+  width: 150px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-right: 20px; /* Thêm margin-right để tạo khoảng cách với nút kế bên */
+  background: var(--color-Onyx);
+  text-decoration-color: var(--color-White);
+  font-family: 'Itim-Regular';
+}
+#seeResume{
+  width: 150px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: var(--color-White);
+  font-family: 'Itim-Regular';
+}
+/* Chỉnh màu văn bản cho nút "Get My Resume" có lớp white-button */
+.white-button{
+  color: var(--color-White); /* Đổi màu văn bản thành màu trắng */
+}
+
+/* Chỉnh màu văn bản cho nút "See My Resume" có lớp black-button */
+.black-button{
+  color: var(--color-Black); /* Đổi màu văn bản thành màu đen */
+}
+
+
