@@ -1,21 +1,10 @@
-// Navigation.js
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '../navigation/Navigation.css';
 import MyAvatar from '../assets/pictures/avatar.jpg';
+import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 function Navigation() {
-  return (
-    <nav className="navigation">
-    <div className="avatar-container">
-      <img src={MyAvatar} alt='Ảnh đại diện' />
-    </div>
-    <ul>
-      <li><a href="/">Work</a></li>
-      <li><a href="/about">About Me</a></li>
-      <li><a href="/products">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
-  );
+  return 
 }
 
 export default Navigation;
