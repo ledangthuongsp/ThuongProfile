@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
                     <Link to="/" className="navbar-link" onClick={() => setExpand(false)}>
                         <AiOutlineHome className="navbar-icon" />
                         <span>Home</span>
-                        <span className={`navbar-underline navbar-underline-home bottom-0`}></span>
+                        <span className={`navbar-underline navbar-underline-about navbar-underline-offset`}></span>
                     </Link>
                     <Link to="/about" className="navbar-link" onClick={() => setExpand(false)}>
                         <AiOutlineUser className="navbar-icon" />

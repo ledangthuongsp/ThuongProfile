@@ -35,7 +35,7 @@
     /* Adjust this value to control the distance from the text */
     left: 0;
     width: 0;
-    height: 1px;
+    height: 3px;
     transition: all 0.3s;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .navbar-underline-home {
-    background-color: #a855f7;
+    background-color: var(--teal-dark-4);
     /* bg-purple-500 */
 }
 
@@ -60,8 +60,7 @@
 .navbar-underline-projects,
 .navbar-underline-resume,
 .navbar-underline-blogs {
-    background-color: #a855f7;
-    /* bg-purple-500 */
+    background-color: var(--teal-dark-4);
 }
 
 .navbar-mobile {
