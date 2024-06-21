@@ -1,0 +1,21 @@
+:root {
+    --teal-dark-1: #2C3532;
+    --teal-dark-2: #0F6466;
+    --teal-dark-3: #D8B08C;
+    --teal-dark-4: #FFCB9A;
+    --teal-dark-5: #D2E8E3;
+
+    /* RGBA */
+    --teal-dark-1-rgba: rgba(43, 52, 49, 1);
+    --teal-dark-2-rgba: rgba(14, 100, 102, 1);
+    --teal-dark-3-rgba: rgba(216, 175, 140, 1);
+    --teal-dark-4-rgba: rgba(255, 202, 154, 1);
+    --teal-dark-5-rgba: rgba(209, 232, 226, 1);
+
+    /* HSLA */
+    --teal-dark-1-hsla: hsla(159, 9, 19, 1);
+    --teal-dark-2-hsla: hsla(181, 74, 22, 1);
+    --teal-dark-3-hsla: hsla(28, 49, 69, 1);
+    --teal-dark-4-hsla: hsla(29, 100, 80, 1);
+    --teal-dark-5-hsla: hsla(166, 32, 86, 1);
+}
