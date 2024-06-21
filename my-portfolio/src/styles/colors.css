@@ -1,10 +1,15 @@
 :root {
-    --teal-dark-1: #2C3532;
-    --teal-dark-2: #0F6466;
+    /*black*/
+    --teal-dark-1: #2C3532; 
+    /*dark-green*/
+    --teal-dark-2: #0F6466; 
+    /**/
     --teal-dark-3: #D8B08C;
+     /*orange*/
     --teal-dark-4: #FFCB9A;
     --teal-dark-5: #D2E8E3;
-
+    --white: #FFFFFF;
+    --black: #000000;
     /* RGBA */
     --teal-dark-1-rgba: rgba(43, 52, 49, 1);
     --teal-dark-2-rgba: rgba(14, 100, 102, 1);

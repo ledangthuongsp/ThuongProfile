@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                     </Link>
                 </div>
 
-                <div className="hidden md:flex space-x-16-custom text-[var(--teal-dark-1)]">
+                <div className="hidden md:flex space-x-16-custom text-[var(--white)]">
                     <Link to="/" className="navbar-link" onClick={() => setExpand(false)}>
                         <AiOutlineHome className="navbar-icon" />
                         <span>Home</span>
