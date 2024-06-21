@@ -1,0 +1,85 @@
+/* custom.css */
+.navbar {
+    @apply fixed top-0 w-full z-50 transition-all duration-300;
+}
+
+.navbar-bg {
+    @apply bg-[var(--teal-dark-2)] shadow-md;
+}
+
+.navbar-transparent {
+    @apply bg-transparent;
+}
+
+.navbar-container {
+    @apply container mx-auto flex items-center justify-between p-4;
+}
+
+.navbar-logo {
+    @apply h-auto w-16 object-fill;
+}
+
+.navbar-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    @apply mr-2;
+}
+
+.navbar-underline {
+    position: absolute;
+    bottom: -5px;
+    /* Adjust this value to control the distance from the text */
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all 0.3s;
+}
+
+.navbar-link:hover .navbar-underline-home,
+.navbar-link:hover .navbar-underline-about,
+.navbar-link:hover .navbar-underline-projects,
+.navbar-link:hover .navbar-underline-resume,
+.navbar-link:hover .navbar-underline-blogs {
+    width: 100%;
+}
+
+.navbar-underline-home {
+    background-color: #a855f7;
+    /* bg-purple-500 */
+}
+
+.navbar-underline-about {
+    background-color: var(--teal-dark-4);
+    /* Use your custom color */
+}
+
+.navbar-underline-projects,
+.navbar-underline-resume,
+.navbar-underline-blogs {
+    background-color: #a855f7;
+    /* bg-purple-500 */
+}
+
+.navbar-mobile {
+    @apply md:hidden flex items-center;
+}
+
+.navbar-mobile-btn {
+    @apply text-[var(--teal-dark-5)] focus:outline-none;
+}
+
+.navbar-mobile-menu {
+    @apply md:hidden bg-[var(--teal-dark-2)] text-[var(--teal-dark-5)];
+}
+
+.navbar-mobile-link {
+    @apply block px-4 py-2;
+}
+
+.space-x-16-custom {
+    @apply space-x-16;
+}
