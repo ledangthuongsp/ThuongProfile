@@ -1,10 +1,14 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Home from './pages/home/Home';
 import './styles/main.css';
-import Navbar from './components/navbar/Navbar';
 
+const useTitle = (title: string) => {
+  useEffect(() => {
+    document.title = title;
+  }, [title]);
+};
 const App: React.FC = () => {
+  useTitle('Piller');
   return (
     <div className="relative">
       <Home />
