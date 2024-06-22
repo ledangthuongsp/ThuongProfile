@@ -2,6 +2,7 @@ import React from 'react';
 import Type from '../../components/type/type';
 import './styles.css';
 import Navbar from '../../components/navbar/Navbar';
+import AvatarShape from '../../components/avatar/Avatar';
 
 const Home: React.FC = () => {
     return (
@@ -20,6 +21,7 @@ const Home: React.FC = () => {
                             <Type />
                         </div>
                     </div>
+                    <AvatarShape />
                 </div>
             </section>
         </>

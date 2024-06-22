@@ -1,0 +1,13 @@
+/* Tạo hình dạng giọt nước */
+.avatar-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
