@@ -27,14 +27,14 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className={`navbar ${navColour ? 'navbar-bg' : 'navbar-transparent'}`}>
-            <div className="navbar-container">
-                <div className="flex items-center">
-                    <Link to="/" className="flex items-center">
-                        <img src={logo} alt="brand" className="navbar-logo" />
+            <div className="navbar-container text-[var(--black)]">
+                <div className="flex items-center ">
+                    <Link to="/" className="flex items-center navbar-logo">
+                        <span>Piller</span>
                     </Link>
                 </div>
 
-                <div className="hidden md:flex space-x-16-custom text-[var(--white)]">
+                <div className="hidden md:flex space-x-16-custom text-[var(--black)]">
                     <Link to="/" className="navbar-link" onClick={() => setExpand(false)}>
                         <AiOutlineHome className="navbar-icon" />
                         <span>Home</span>

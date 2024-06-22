@@ -1,54 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); /* Import Google Font với các trọng lượng khác nhau */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'); /* Import Google Font với các trọng lượng khác nhau */
 
 body {
     font-family: 'Open Sans', sans-serif; /* Sử dụng phông chữ Open Sans */
 }
-
-/* Kiểu chữ cho các heading */
-.heading-1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 300; /* Light */
-}
-
-.heading-2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 400; /* Regular */
-}
-
-.heading-3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.75rem;
-    font-weight: 500; /* Medium */
-}
-
-.heading-4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600; /* SemiBold */
-}
-
-.heading-5 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 700; /* Bold */
-}
-
-.heading-6 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 800; /* ExtraBold */
-}
-
-/* Các lớp khác */
-.navbar-link {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400; /* Regular */
-}
-
-.main-name {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700; /* Bold */
+.paytone-one-regular {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

@@ -1,10 +1,8 @@
 .home-section {
   @apply h-screen flex flex-col justify-center items-center text-white;
-  background: url('../../assets/backgrounds/taurus.png') no-repeat center center fixed;
-  background-size: cover;
 }
 .home-overlay {
-  @apply absolute inset-0 bg-black opacity-95;
+  @apply absolute inset-0 bg-white opacity-95;
 }
 .home-content {
   @apply container mx-auto flex flex-col md:flex-row items-center;
@@ -16,18 +14,21 @@
 
 .heading {
   @apply text-4xl mb-4;
+  @apply text-[var(--black)];
 }
 
 .heading-name {
   @apply text-6xl font-bold mb-4;
+  @apply text-[var(--black)];
 }
 
 .main-name {
-  @apply text-purple-500;
+    @apply text-[var(--blue)];
 }
 
 .type-wrapper {
   @apply text-2xl;
+  @apply text-[var(--black)];
 }
 
 .img-fluid {

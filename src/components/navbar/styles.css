@@ -1,6 +1,8 @@
+@import url('../../styles/colors.css');
+@import url('../../styles/fonts.css');
 /* custom.css */
 .navbar {
-    @apply fixed top-0 w-full z-50 transition-all duration-300;
+    @apply fixed top-5 w-full z-50 transition-all duration-300;
 }
 
 .navbar-bg {
@@ -16,7 +18,11 @@
 }
 
 .navbar-logo {
-    @apply h-auto w-16 object-fill;
+    width: 4rem;
+    font-size: 1.5rem;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .navbar-link {
@@ -25,7 +31,7 @@
     align-items: center;
     font-size: 1.25rem; /* Adjust font size */
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; /* Regular */
+    font-weight: 600; /* Regular */
 }
 
 .navbar-icon {
@@ -53,19 +59,19 @@
 }
 
 .navbar-underline-home {
-    background-color: var(--teal-dark-4);
+    background-color: var(--blue);
     /* bg-purple-500 */
 }
 
 .navbar-underline-about {
-    background-color: var(--teal-dark-4);
+    background-color: var(--blue);
     /* Use your custom color */
 }
 
 .navbar-underline-projects,
 .navbar-underline-resume,
 .navbar-underline-blogs {
-    background-color: var(--teal-dark-4);
+    background-color: var(--blue);
 }
 
 .navbar-mobile {
