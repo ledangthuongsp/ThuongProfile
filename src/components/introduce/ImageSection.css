@@ -1,0 +1,16 @@
+.image-section {
+    @apply relative flex justify-center items-center h-48 bg-cover bg-center mb-5;
+    background-image: url('../../assets/backgrounds/blue_art.jpg'); /* Replace with the correct path */
+}
+
+.image-section-content {
+    @apply relative w-full h-full flex justify-end items-start;
+}
+
+.image-section-button {
+    @apply bg-cyan-400 text-white border-none p-2.5 text-lg cursor-pointer rounded-full absolute top-5 right-5 w-24 h-24 flex justify-center items-center transition-colors ease-in-out duration-300;
+}
+
+.image-section-button:hover {
+    @apply bg-cyan-700; /* Darker green on hover */
+}

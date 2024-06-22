@@ -1,12 +1,13 @@
+/* custom.css */
 @import url('../../styles/colors.css');
 @import url('../../styles/fonts.css');
-/* custom.css */
+
 .navbar {
-    @apply fixed top-5 w-full z-50 transition-all duration-300;
+    @apply fixed top-0 w-full z-50 transition-all duration-300;
 }
 
 .navbar-bg {
-    @apply bg-[var(--teal-dark-2)] shadow-md;
+    @apply bg-gray-100 bg-opacity-95 shadow-md; /* Semi-transparent background */
 }
 
 .navbar-transparent {
@@ -47,7 +48,7 @@
     height: 4px;
     border-radius: 4px;
     transition: all 0.3s;
-    alight:center;
+    align: center;
 }
 
 .navbar-link:hover .navbar-underline-home,
@@ -58,16 +59,8 @@
     width: 105%;
 }
 
-.navbar-underline-home {
-    background-color: var(--blue);
-    /* bg-purple-500 */
-}
-
-.navbar-underline-about {
-    background-color: var(--blue);
-    /* Use your custom color */
-}
-
+.navbar-underline-home,
+.navbar-underline-about,
 .navbar-underline-projects,
 .navbar-underline-resume,
 .navbar-underline-blogs {

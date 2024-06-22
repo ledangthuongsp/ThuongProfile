@@ -1,0 +1,23 @@
+.introduce-section {
+    padding: 2rem 1rem;
+    background: var(--white);
+    color: var(--black);
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introduce-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--black);
+}
+
+.highlight {
+    color: var(--blue);
+}
+
+.introduction-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
