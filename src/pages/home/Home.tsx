@@ -38,6 +38,7 @@ const Home: React.FC = () => {
                             </a>
                         </div>
                     </div>
+                    <div className="home-overlay"></div> {/* Overlay section */}
                     <AvatarShape />
                 </div>
             </section>
