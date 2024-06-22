@@ -4,7 +4,7 @@ import { ReactTyped } from 'react-typed';
 const Type: React.FC = () => {
     return (
         <ReactTyped
-            strings={['MERN STACK DEVELOPER', 'FULL STACK DEVELOPER', 'UI/UX DESIGN']}
+            strings={['MERN STACK DEVELOPER', 'FULL STACK DEVELOPER', 'UI/UX DESIGNER']}
             typeSpeed={50}
             backSpeed={50}
             loop

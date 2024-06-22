@@ -1,16 +1,22 @@
 .image-section {
-    @apply relative flex justify-center items-center h-48 bg-cover bg-center mb-5;
+    @apply h-80 bg-cover bg-center mb-5;
     background-image: url('../../assets/backgrounds/blue_art.jpg'); /* Replace with the correct path */
 }
 
-.image-section-content {
-    @apply relative w-full h-full flex justify-end items-start;
+.circle {
+    @apply flex justify-center items-center; /* Ensures the button is centered in the circle */
 }
 
 .image-section-button {
-    @apply bg-cyan-400 text-white border-none p-2.5 text-lg cursor-pointer rounded-full absolute top-5 right-5 w-24 h-24 flex justify-center items-center transition-colors ease-in-out duration-300;
+    background-color: var(--bg-cyan-500);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .image-section-button:hover {
-    @apply bg-cyan-700; /* Darker green on hover */
+    background-color: var(--bg-cyan-700); /* Define this variable in your colors.css */
+}
+.button-text {
+    @apply text-2xl font-bold; /* Tailwind utilities for font size and weight */
+    font-family: 'Open Sans', sans-serif; /* Ensures the custom font is applied */
 }

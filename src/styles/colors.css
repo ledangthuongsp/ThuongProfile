@@ -9,4 +9,8 @@
     --blue: #007BFF;/* Màu xanh dương */
     --dark-blue:#0A2472; /*Màu xanh dương đâm*/
     --light-gray:#606060;
+    --button-blue: #4a90e2; /* Softer blue for the button */
+    --button-hover-blue: #357ab8; /* Darker blue for hover state */
+    --bg-cyan-500: #06b6d4;
+    --bg-cyan-700: #0369a1;
 }
