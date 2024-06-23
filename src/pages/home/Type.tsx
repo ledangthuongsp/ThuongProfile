@@ -3,9 +3,9 @@ import { ReactTyped } from 'react-typed';
 
 const Type: React.FC = () => {
     return (
-        <div className='text-xl md:text-2xl font-normal font-sans'>
+        <div className='text-xl md:text-2xl font-semibold font-sans'>
             <ReactTyped
-                strings={['MERN STACK DEVELOPER', 'FULL STACK DEVELOPER', 'UI/UX DESIGN']}
+                strings={['MERN STACK DEVELOPER', 'JAVA BACKEND', 'UI/UX DESIGNER']}
                 typeSpeed={50}
                 backSpeed={50}
                 loop
