@@ -1,4 +1,9 @@
+/* Import fonts first */
+@import 'typeface-open-sans';
+@import 'typeface-paytone-one';
+
 @import './colors.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
