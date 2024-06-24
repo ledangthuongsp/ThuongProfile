@@ -88,7 +88,7 @@ const NavBar: React.FC = () => {
                     {[
                         { to: '/ThuongProfile/', icon: AiOutlineHome, label: 'Home' },
                         { to: '/ThuongProfile/about', icon: AiOutlineUser, label: 'About' },
-                        { to: '/ThuongProfile/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
+                        { to: '/ThuongProfile/projects', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
                         { to: '/ThuongProfile/resume', icon: CgFileDocument, label: 'Resume' },
                     ].map(({ to, icon: Icon, label }) => (
                         <Link

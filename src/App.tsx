@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/ThuongProfile" element={<Home />} />
         <Route path="/ThuongProfile/about" element={<About />} />
-        <Route path='/ThuongProfile/project' element={<Projects />} />
+        <Route path='/ThuongProfile/projects' element={<Projects />} />
         {/* Add other routes here */}
       </Routes>
       <Footer />
