@@ -12,8 +12,8 @@ const Home: React.FC = () => {
     const isInView = useInView(aboutRef, { once: true });
 
     return (
-        <div className="relative flex flex-col min-h-screen">
-            <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-4">
+        <div className="flex flex-col min-h-screen">
+            <div className="mx-auto flex flex-col md:flex-row items-center justify-center px-4">
                 <motion.div
                     className="fixed text-[20vh] md:text-[80vh] items-center mb-36 whitespace-nowrap text-gray-300 font-sans font-bold opacity-50"
                     id='lineback'
@@ -97,13 +97,16 @@ const Home: React.FC = () => {
                 </motion.div>
             </div>
 
-            <div className="relative h-screen py-8">
-                <img src={BackgroundImage} className="absolute inset-0 w-full h-full object-cover opacity-60" alt="Background" />
-                <div className="absolute flex flex-col md:flex-row items-center justify-center px-4 py-16 h-full">
+            <div className="relative flex flex-col">
+                <div
+                    className="absolute inset-0 w-full h-full bg-cover bg-center opacity-60"
+                    style={{ backgroundImage: `url(${BackgroundImage})` }}
+                ></div>
+                <div className="relative flex flex-col md:flex-row items-center justify-center px-4 py-16 h-full">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-end items-center mt-8 md:mt-0 py-36 h-full">
                         <img className="h-full w-11/12 md:w-11/12 rounded-lg object-cover" src={Aboutme} alt="Avatar" />
                     </div>
-                    <div className="flex flex-col justify-center w-full md:w-2/3 md:flex-col bg-opacity-60 bg-white px-8 md:px-16 rounded-lg h-full">
+                    <div className="relative flex flex-col justify-center w-full md:w-2/3 md:flex-col bg-opacity-60 bg-white px-8 md:px-16 rounded-lg h-full">
                         <h1 className="text-4xl md:text-6xl font-bold leading-tight py-2 font-sans text-black text-justify-left">
                             LET ME <span className="text-blue-500">INTRODUCE</span> MYSELF
                         </h1>
