@@ -18,7 +18,7 @@ const App: React.FC = () => {
     <div className='relative'>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ThuongProfile" element={<Home />} />
         <Route path="/about" element={<About />} />
         {/* Add other routes here */}
       </Routes>

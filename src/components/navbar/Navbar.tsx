@@ -45,7 +45,7 @@ const NavBar: React.FC = () => {
                 </div>
                 <div className={`md:flex space-x-16 hidden ${expand ? 'flex-row-reverse' : 'hidden'}`}>
                     {[
-                        { to: '/', icon: AiOutlineHome, label: 'Home' },
+                        { to: '/ThuongProfile', icon: AiOutlineHome, label: 'Home' },
                         { to: '/about', icon: AiOutlineUser, label: 'About' },
                         { to: '/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
                         { to: '/resume', icon: CgFileDocument, label: 'Resume' },
