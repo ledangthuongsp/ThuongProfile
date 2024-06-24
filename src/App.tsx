@@ -19,7 +19,7 @@ const App: React.FC = () => {
       <NavBar />
       <Routes>
         <Route path="/ThuongProfile" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/ThuongProfile/about" element={<About />} />
         {/* Add other routes here */}
       </Routes>
       <Footer />

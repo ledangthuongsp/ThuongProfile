@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                 <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0">
                     <div className="flex items-center space-x-2">
                         <MdEmail className="h-6 w-6" />
-                        <p>ledangthuongsp@gmail.com</p>
+                        <p>ledangthuong2003@gmail.com</p>
                     </div>
                     <div className="flex items-center space-x-2">
                         <FaPhoneAlt className="h-5 w-5" />

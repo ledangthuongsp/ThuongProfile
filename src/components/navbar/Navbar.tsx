@@ -45,10 +45,10 @@ const NavBar: React.FC = () => {
                 </div>
                 <div className={`md:flex space-x-16 hidden ${expand ? 'flex-row-reverse' : 'hidden'}`}>
                     {[
-                        { to: '/ThuongProfile', icon: AiOutlineHome, label: 'Home' },
-                        { to: '/about', icon: AiOutlineUser, label: 'About' },
-                        { to: '/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
-                        { to: '/resume', icon: CgFileDocument, label: 'Resume' },
+                        { to: '/ThuongProfile/', icon: AiOutlineHome, label: 'Home' },
+                        { to: '/ThuongProfile/about', icon: AiOutlineUser, label: 'About' },
+                        { to: '/ThuongProfile/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
+                        { to: '/ThuongProfile/resume', icon: CgFileDocument, label: 'Resume' },
                     ].map(({ to, icon: Icon, label }) => (
                         <Link
                             key={label}
@@ -86,10 +86,10 @@ const NavBar: React.FC = () => {
             {expand && (
                 <div className="md:hidden absolute top-full left-0 right-0 bg-white text-black">
                     {[
-                        { to: '/', icon: AiOutlineHome, label: 'Home' },
-                        { to: '/about', icon: AiOutlineUser, label: 'About' },
-                        { to: '/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
-                        { to: '/resume', icon: CgFileDocument, label: 'Resume' },
+                        { to: '/ThuongProfile/', icon: AiOutlineHome, label: 'Home' },
+                        { to: '/ThuongProfile/about', icon: AiOutlineUser, label: 'About' },
+                        { to: '/ThuongProfile/project', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
+                        { to: '/ThuongProfile/resume', icon: CgFileDocument, label: 'Resume' },
                     ].map(({ to, icon: Icon, label }) => (
                         <Link
                             key={label}
