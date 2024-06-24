@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import NavBar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
+import Projects from './pages/project/Projects';
 
 const useTitle = (title: string) => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/ThuongProfile" element={<Home />} />
         <Route path="/ThuongProfile/about" element={<About />} />
+        <Route path='/ThuongProfile/project' element={<Projects />} />
         {/* Add other routes here */}
       </Routes>
       <Footer />

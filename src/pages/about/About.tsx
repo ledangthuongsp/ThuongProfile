@@ -59,8 +59,7 @@ const About: React.FC = () => {
                             </span>
                         </h1>
                         <h2 className="text-lg md:text-xl font-normal leading-tight font-sans">
-                            My full name is <span className="text-cyan-500 font-semibold">Le Dang Thuong</span>, but I prefer to be called
-                            <span className="text-cyan-500 font-semibold">Piller</span>.<br></br>
+                            My full name is <span className="text-cyan-500 font-semibold">Le Dang Thuong</span>, but I prefer to be called <span className="text-cyan-500 font-semibold">Piller</span>.<br></br>
                             I'm now living at <span className="text-cyan-500 font-semibold">Ho Chi Minh City</span>.
                         </h2>
                         <h2 className="text-lg md:text-xl font-normal leading-tight font-sans">
