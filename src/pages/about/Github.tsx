@@ -5,7 +5,7 @@ const Github: React.FC = () => {
     return (
         <div className="flex flex-col items-center pb-8">
             <h1 className="text-4xl font-semibold pb-5 font-sans">
-                Days I <strong className="text-cyan-400">Code</strong>
+                Days I <strong className="text-blue-500">Code</strong>
             </h1>
             <GitHubCalendar
                 username="ledangthuongsp"

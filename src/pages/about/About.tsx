@@ -59,11 +59,11 @@ const About: React.FC = () => {
                             </span>
                         </h1>
                         <h2 className="text-lg md:text-xl font-normal leading-tight font-sans">
-                            My full name is <span className="text-cyan-500 font-semibold">Le Dang Thuong</span>, but I prefer to be called <span className="text-cyan-500 font-semibold">Piller</span>.<br></br>
-                            I'm now living at <span className="text-cyan-500 font-semibold">Ho Chi Minh City</span>.
+                            My full name is <span className="text-blue-600 font-semibold">Le Dang Thuong</span>, but I prefer to be called <span className="text-blue-600 font-semibold">Piller</span>.<br></br>
+                            I'm now living at <span className="text-blue-600 font-semibold">Ho Chi Minh City</span>.
                         </h2>
                         <h2 className="text-lg md:text-xl font-normal leading-tight font-sans">
-                            I'm majoring in <span className="text-cyan-500 font-semibold">Software Engineer</span> at <span className="text-cyan-500 font-semibold">University of Information Technology</span>.
+                            I'm majoring in <span className="text-blue-600 font-semibold">Software Engineer</span> at <span className="text-blue-600 font-semibold">University of Information Technology</span>.
                         </h2>
                         <br></br>
                         <h2 className="text-lg md:text-xl font-normal leading-tight font-sans">
@@ -105,7 +105,7 @@ const About: React.FC = () => {
 
                 <div className="pb-8">
                     <h1 className="my-8 text-center text-4xl font-sans font-semibold">
-                        <span className="font-sans font-bold text-cyan-400">Technologies</span> and <span className="font-sans font-bold text-cyan-400">Frameworks</span> I used
+                        <span className="font-sans font-bold text-blue-500">Technologies</span> and <span className="font-sans font-bold text-blue-500">Frameworks</span> I used
                     </h1>
                     <div className="flex flex-wrap mx-auto items-center justify-center gap-4">
                         <div className="rounded-2xl border-2 border-neutral-400 p-4 px-16 hover:scale-110 hover:border-gray-600 transition-transform duration-300">
@@ -146,7 +146,7 @@ const About: React.FC = () => {
                 </div>
                 <div className=" pb-8">
                     <h1 className="my-8 text-center text-4xl font-sans font-semibold">
-                        <span className="font-sans font-bold text-cyan-400">Tools</span> I used
+                        <span className="font-sans font-bold text-blue-500">Tools</span> I used
                     </h1>
                     <div className="flex flex-wrap items-center justify-center gap-4">
                         <motion.div
