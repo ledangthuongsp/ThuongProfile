@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Camera Shop Website"
+                        title="Camera Store Website"
                         description="A website for selling cameras and camera accessories.
                         Built to modern website standards, it includes three basic roles: User, Employee, and Admin.
                         Utilizes the MERN stack (MongoDB, Express, React, Node.js) to provide full functionality for a camera and accessories 
