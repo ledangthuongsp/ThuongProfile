@@ -49,6 +49,7 @@ const NavBar: React.FC = () => {
                         { to: '/ThuongProfile/about', icon: AiOutlineUser, label: 'About' },
                         { to: '/ThuongProfile/projects', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
                         { to: '/ThuongProfile/resume', icon: CgFileDocument, label: 'Resume' },
+                        { to: '/ThuongProfile/blog', icon: ImBlog, label: 'Blog' },
                     ].map(({ to, icon: Icon, label }) => (
                         <Link
                             key={label}
@@ -62,17 +63,7 @@ const NavBar: React.FC = () => {
                         </Link>
                     ))}
                     <a
-                        href=""
-                        target="_blank"
-                        rel="noreferrer"
-                        className={`relative flex items-center text-lg font-semibold font-sans group ${expand ? 'ml-6' : ''}`}
-                    >
-                        <ImBlog className="mr-2 text-xl" />
-                        Blogs
-                        <span className={`absolute -my-2 bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100`}></span>
-                    </a>
-                    <a
-                        href=""
+                        href="https://github.com/ledangthuongsp"
                         target="_blank"
                         rel="noreferrer"
                         className={`relative flex items-center text-lg font-semibold font-sans group ${expand ? 'ml-6' : ''}`}
@@ -90,6 +81,7 @@ const NavBar: React.FC = () => {
                         { to: '/ThuongProfile/about', icon: AiOutlineUser, label: 'About' },
                         { to: '/ThuongProfile/projects', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
                         { to: '/ThuongProfile/resume', icon: CgFileDocument, label: 'Resume' },
+                        { to: '/ThuongProfile/blog', icon: ImBlog, label: 'Blog' },
                     ].map(({ to, icon: Icon, label }) => (
                         <Link
                             key={label}
@@ -101,15 +93,7 @@ const NavBar: React.FC = () => {
                         </Link>
                     ))}
                     <a
-                        href=""
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block px-4 py-2 hover:bg-blue-600 hover:text-white"
-                    >
-                        <ImBlog className="mr-2" /> Blogs
-                    </a>
-                    <a
-                        href=""
+                        href="https://github.com/ledangthuongsp"
                         target="_blank"
                         rel="noreferrer"
                         className="block px-4 py-2 hover:bg-blue-600 hover:text-white"

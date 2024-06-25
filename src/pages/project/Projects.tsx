@@ -1,64 +1,73 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-
 const Projects: React.FC = () => {
     return (
-        <div className="bg-gray-900 py-12">
+        <div className="bg-white py-12">
             <div className="container mx-auto px-4">
-                <h1 className="text-4xl font-bold text-white text-center mb-8">
-                    My Recent <strong className="text-purple-500">Works</strong>
+                <h1 className="text-4xl font-bold text-black text-center mb-8">
+                    My Recent <strong className="text-blue-500">Works</strong>
                 </h1>
-                <p className="text-center text-white mb-12">
+                <p className="text-center text-black mb-12">
                     Here are a few projects I've worked on recently.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Chatify"
-                        description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                        ghLink="https://github.com/soumyajit4419/Chatify"
-                        demoLink="https://chatify-49.web.app/"
+                        title="Classification & Garbage Collection"
+                        description="An application that helps users classify garbage and find collection points within the system. 
+                        It enhances user experience through educational games, point exchange, and donation features.
+                        Built using Dart, TypeScript, Java (Springboot) with three roles: User, Employee, Admin.
+                        Utilizes Flask and Roboflow to train a model for recognizing different types of waste as objects."
+                        ghLink=""
+                        demoLink=""
+                        frontendLink="https://github.com/ThachSangW3G/ecoTS_FE"
+                        backendLink="https://github.com/ledangthuongsp/ecoTS_BE"
                     />
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Bits-0f-C0de"
-                        description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-                        ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-                        demoLink="https://blogs.soumya-jit.tech/"
+                        title="Flight Booking Website"
+                        description="A flight booking website that allows users to book domestic flights and make payments via Visa.
+                        Developed with TypeScript (React) and Java (Springboot), 
+                        integrating modern features of a flight booking website such as viewing flight lists, flight details, booking tickets, and booking history."
+                        ghLink="https://github.com/yourusername/flight-booking"
+                        demoLink=""
+                        frontendLink="https://github.com/ledangthuongsp/FlightBooking"
+                        backendLink="https://github.com/ledangthuongsp/FlightBooking_BE"
                     />
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Editor.io"
-                        description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-                        ghLink="https://github.com/soumyajit4419/Editor.io"
-                        demoLink="https://editor.soumya-jit.tech/"
+                        title="Mobile Shopping App"
+                        description="This application is entirely built with Android Studio, with no backend, and uses Firebase for storing model information.
+                        The app includes basic roles like User, Employee, and Admin, and meets all shopping needs such as viewing products, selecting products, product details, 
+                        adding products to the cart, purchasing products, viewing purchase history, canceling orders, and tracking orders."
+                        ghLink="https://github.com/trungtinhn/SE114_SHOPPINGAPP"
+                        demoLink=""
                     />
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Plant AI"
-                        description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-                        ghLink="https://github.com/soumyajit4419/Plant_AI"
-                        demoLink="https://plant49-ai.herokuapp.com/"
+                        title="Personal Portfolio"
+                        description="A personal project that others can clone to build their own portfolio if they find it suitable.
+                        This project mainly focuses on UI without a backend, developed using React (TypeScript)."
+                        ghLink="https://github.com/ledangthuongsp/ThuongProfile"
+                        demoLink="https://ledangthuongsp.github.io/ThuongProfile/"
                     />
                     <ProjectCard
                         imgPath=""
                         isBlog={false}
-                        title="Ai For Social Good"
-                        description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-                        ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-                    />
-                    <ProjectCard
-                        imgPath=""
-                        isBlog={false}
-                        title="Face Recognition and Emotion Detection"
-                        description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-            Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-                        ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+                        title="Camera Shop Website"
+                        description="A website for selling cameras and camera accessories.
+                        Built to modern website standards, it includes three basic roles: User, Employee, and Admin.
+                        Utilizes the MERN stack (MongoDB, Express, React, Node.js) to provide full functionality for a camera and accessories 
+                        e-commerce website, including viewing products, product details, pricing, adding to cart, placing orders, canceling orders, tracking orders, and chatting with admin.
+                        Users can also rate products and provide feedback to employees about issues with their orders and process returns or exchanges."
+                        ghLink=""
+                        frontendLink="https://github.com/ledangthuongsp/GearShop/tree/main/gearshop-frontend"
+                        backendLink="https://github.com/ledangthuongsp/GearShop/tree/main/gearshop-backend"
                     />
                 </div>
             </div>
