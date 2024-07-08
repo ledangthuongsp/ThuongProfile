@@ -11,7 +11,7 @@ const Resume: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <div className="flex flex-col items-center">
-                <h1 className="mb-4">Download Le Dang Thuong Resume</h1>
+                <h1 className="mb-4">Download Le Dang Thuong Resume (Internship)</h1>
                 <button
                     onClick={handleDownload}
                     className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
