@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
                         ghLink="https://github.com/ledangthuongsp/ThuongProfile"
                         demoLink="https://ledangthuongsp.github.io/ThuongProfile/"
                     />
-                    <ProjectCard
+                    {/* <ProjectCard
                         imgPath=""
                         isBlog={false}
                         title="Camera Store Website"
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
                         ghLink=""
                         frontendLink="https://github.com/ledangthuongsp/GearShop/tree/main/gearshop-frontend"
                         backendLink="https://github.com/ledangthuongsp/GearShop/tree/main/gearshop-backend"
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
