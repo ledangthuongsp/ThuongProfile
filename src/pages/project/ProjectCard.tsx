@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
 
     return (
         <div className="flex flex-col justify-between h-full border rounded-lg shadow-lg overflow-hidden bg-gray-200">
-            <img src={props.imgPath} alt="Project" className="w-full h-48 object-cover" />
+            <img src={props.imgPath} alt="Project" className="w-full h-100 object-cover" />
             <div className="p-6 flex flex-col flex-grow">
                 <h2 className="text-2xl font-bold mb-2 text-black">{props.title}</h2>
                 <p className="text-black flex-grow text-justify">{props.description}</p>

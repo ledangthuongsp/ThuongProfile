@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-
+import Ecommerce from '../../assets/backgrounds/e-commerce.png'
+import FlightBooking from '../../assets/backgrounds/flight-booking.png'
+import Portfolio from '../../assets/backgrounds/portfolio.png'
+import GarbageDetection from '../../assets/backgrounds/garbage-detection.png'
 const Projects: React.FC = () => {
     return (
         <div className="bg-white py-12">
@@ -13,7 +16,7 @@ const Projects: React.FC = () => {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <ProjectCard
-                        imgPath=""
+                        imgPath= {GarbageDetection}
                         isBlog={false}
                         title="Classification & Garbage Collection"
                         description="An application that helps users classify garbage and find collection points within the system. 
@@ -26,7 +29,7 @@ const Projects: React.FC = () => {
                         backendLink="https://github.com/ledangthuongsp/ecoTS_BE"
                     />
                     <ProjectCard
-                        imgPath=""
+                        imgPath={FlightBooking}
                         isBlog={false}
                         title="Flight Booking Website"
                         description="A flight booking website that allows users to book domestic flights and make payments via Visa.
@@ -38,7 +41,7 @@ const Projects: React.FC = () => {
                         backendLink="https://github.com/ledangthuongsp/FlightBooking_BE"
                     />
                     <ProjectCard
-                        imgPath=""
+                        imgPath={Ecommerce}
                         isBlog={false}
                         title="Mobile Shopping App"
                         description="This application is entirely built with Android Studio, with no backend, and uses Firebase for storing model information.
@@ -48,7 +51,7 @@ const Projects: React.FC = () => {
                         demoLink=""
                     />
                     <ProjectCard
-                        imgPath=""
+                        imgPath={Portfolio}
                         isBlog={false}
                         title="Personal Portfolio"
                         description="A personal project that others can clone to build their own portfolio if they find it suitable.
