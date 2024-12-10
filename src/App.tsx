@@ -21,12 +21,12 @@ const App: React.FC = () => {
     <div className='relative'>
       <NavBar />
       <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/resume' element={<Resume />} />
-        <Route path='/blog' element={<Blog />} />
+      <Route path="/ThuongProfile" element={<Home />} />
+        <Route path="/ThuongProfile/home" element={<Home />} />
+        <Route path="/ThuongProfile/about" element={<About />} />
+        <Route path='/ThuongProfile/projects' element={<Projects />} />
+        <Route path='/ThuongProfile/resume' element={<Resume />} />
+        <Route path='/ThuongProfile/blog' element={<Blog />} />
         {/* Add other routes here */}
       </Routes>
       <Footer />
