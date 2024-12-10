@@ -53,7 +53,7 @@ const Home: React.FC = () => {
 
                     <div className="flex space-x-6 py-2">
                         <a
-                            href="https://www.instagram.com/_ddawng.pil"
+                            href="https://www.instagram.com/_thuong.ld"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-gray-900"
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
                             <FaInstagram className="w-8 h-8" />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/p1ller"
+                            href="https://www.linkedin.com/in/ledangthuongsp"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-gray-900"
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
                             <FaFacebook className="w-8 h-8" />
                         </a>
                         <a
-                            href="https://github.com/LeDangThuong"
+                            href="https://github.com/ledangthuongsp"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-gray-900"
